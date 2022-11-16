@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      justify-content: center;
+    }
+    .card{
+      text-align: center;
+      display: flex;
+      /* justify-content: space-around; */
+      flex-direction: column;
+      margin: auto;
+      background-color: white;
+      padding: 19px;
+      width: 20%;
+      height: 29rem;
+      min-width: 250px;
+      box-shadow:0px 10px 25px rgba(0, 0, 0, 0.187);
+      border-radius: 30px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .qr{
+      border-radius: 20px;
+    }
+    .title{
+      color : hsl(218, 44%, 22%);
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .text{
+      color: hsl(220, 15%, 55%);
+      margin: 5px;
+      font-size: 17px;
+    }
+  </style>
+</head> 
+
+<body>
+
+  <div class="card">
+    <img src="./images/image-qr-code.png" alt="" class="qr">
+    <h2 class="title">Improve your front-end skills by building projects</h2>
+    <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://portfolio-gamma-mocha-22.vercel.app/">Mariano Melendez</a>.
+  </div>
+</body>
+</html>
