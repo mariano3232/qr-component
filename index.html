@@ -14,16 +14,22 @@
     
     .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      position: fixed;
+      bottom: 5px;
+    }
     body{
       background-color: hsl(212, 45%, 89%);
+      display: flex;
       justify-content: center;
+      align-items: center;
     }
     .card{
-      text-align: center;
+      position: absolute;
+      top: 10%;
       display: flex;
-      /* justify-content: space-around; */
+      text-align: center;
       flex-direction: column;
-      margin: auto;
       background-color: white;
       padding: 19px;
       width: 20%;
